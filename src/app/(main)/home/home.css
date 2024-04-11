@@ -1,0 +1,13 @@
+.home {
+  height: calc(100vh - 128px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 35px;
+  margin-bottom: 20px;
+}

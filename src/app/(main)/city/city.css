@@ -1,0 +1,14 @@
+.cityMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 128px);
+}
+
+.cityMain .cityInput {
+    width: 30vw;
+}
+
+.cityMain .citySearchBtn {
+    margin-left: 10px;
+}

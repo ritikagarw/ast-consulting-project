@@ -1,0 +1,12 @@
+.dynamic-city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 128px);
+}
+
+.cityImage {
+    z-index: -5;
+    opacity: 0.5;
+    filter: brightness(0.9);
+}
