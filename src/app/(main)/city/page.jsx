@@ -7,7 +7,9 @@ import "./city.css";
 
 const City = () => {
   const [city, setCity] = useState("");
+  
   const router = useRouter()
+
   const onSubmit = (e) => {
     e.preventDefault();
     if (city) {
