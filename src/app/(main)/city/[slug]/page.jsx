@@ -13,7 +13,7 @@ const GetCityData = ({ params }) => {
 
   useEffect(() => {
     fetch(
-      `http://api.weatherapi.com/v1/current.json?key=d34cbd751f4549e79ce134615241004&q=${params.slug}`
+      `https://api.weatherapi.com/v1/current.json?key=d34cbd751f4549e79ce134615241004&q=${params.slug}`
     )
       .then((res) => {
         return res.json();
